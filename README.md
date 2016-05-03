@@ -49,7 +49,8 @@ The available options are:
 Both fields define the name of the properties in the POST body that are sent to the server.
 
 * `defPassword` - Optional, defines a default password for use during user creation
-#### Parameters
+
+##### Parameters
 
 By default, `LocalStrategy` expects to find credentials in parameters
 named username and password. If your site prefers to name these fields
