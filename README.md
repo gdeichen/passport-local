@@ -59,6 +59,7 @@ differently, options are available to change the defaults.
     passport.use(new LocalStrategy({
         usernameField: 'email',
         passwordField: 'passwd',
+        defPassword: 'myDefaultPassword',
         session: false
       },
       function(username, password, done) {
